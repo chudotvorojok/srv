@@ -14,9 +14,8 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-#include "Sht31.h"
-#include "mbed.h"
-
+#include <mbed.h>
+#include <Sht31.h>
 Sht31::Sht31(PinName sda, PinName scl) : _i2c(sda, scl) {
     _i2caddr = (0x44 << 1);
     reset();

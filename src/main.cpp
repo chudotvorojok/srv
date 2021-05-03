@@ -1,4 +1,4 @@
-#include <mbed.h>
+#include <C:\Users\ivanb\Documents\mbed-os-master>
 #include <Sht31.h>
 
 Sht31 sht31(I2C_SDA, I2C_SCL);
